@@ -1,6 +1,7 @@
 package api;
 
 import base.BaseApiTest;
+import net.minidev.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -40,7 +41,6 @@ public class ApiTest extends BaseApiTest {
     @Test
     public void getIntegerApi() {
         int value = ApiTestingOperations.getOnlyOneIntegerApi("/api/unknown", "data[1].year");
-        log.info(value);
     }
 
     @Test
@@ -53,7 +53,15 @@ public class ApiTest extends BaseApiTest {
                 }
             }
         }
-        log.info("All ids are unique");
+
+    }
+
+    @Test
+    public void readData() {
+
+        JSONObject deneme = readDataFromFile("jsonFile.json");
+
+        System.out.println(deneme.get("surname"));
     }
 
 
