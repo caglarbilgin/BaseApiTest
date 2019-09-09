@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029473db-e26d-4871-a65d-3e2366858570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/ApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,13 +38,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="422" />
+          <entry key="java" value="700" />
           <entry key="json" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="422" />
+          <entry key="JAVA" value="700" />
           <entry key="JSON" value="110" />
         </counts>
       </usages-collector>
@@ -60,11 +52,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/api/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            <state relative-caret-position="460">
+              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1870#1871#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="310">
+              <caret line="65" column="57" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -107,16 +104,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java" />
         <option value="$PROJECT_DIR$/jsonFile.json" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseApiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java" />
         <option value="$PROJECT_DIR$/src/test/java/api/ApiTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +180,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567430636378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568013082790" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -199,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.deneme">
+  <component name="RunManager" selected="JUnit.ApiTest.testPostData">
     <configuration name="ApiTest.denem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apiTest" />
       <extension name="coverage">
@@ -264,14 +261,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.testPostData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.ApiTest" />
+      <option name="METHOD_NAME" value="testPostData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.ApiTest.getListSpecificStringApi" />
       <item itemvalue="JUnit.ApiTest.getListSpecificIntegerApi" />
       <item itemvalue="JUnit.ApiTest.denem" />
       <item itemvalue="JUnit.ApiTest.deneme" />
+      <item itemvalue="JUnit.ApiTest.testPostData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.testPostData" />
         <item itemvalue="JUnit.ApiTest.deneme" />
         <item itemvalue="JUnit.ApiTest.denem" />
         <item itemvalue="JUnit.ApiTest.getListSpecificIntegerApi" />
@@ -310,6 +325,12 @@
     </history-entry>
     <history-entry file="ApiTest_deneme - 2019.09.02 at 16h 23m 36s.xml">
       <configuration name="ApiTest.deneme" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_deneme - 2019.09.02 at 16h 24m 03s.xml">
+      <configuration name="ApiTest.deneme" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_testPostData - 2019.09.09 at 10h 10m 26s.xml">
+      <configuration name="ApiTest.testPostData" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -360,25 +381,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/api/ApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/ApiTestingOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        <state relative-caret-position="310">
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="57" />
         </state>
       </provider>
     </entry>

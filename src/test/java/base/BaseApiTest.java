@@ -3,6 +3,7 @@ package base;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.specification.RequestSpecification;
 import net.minidev.json.JSONObject;
 import net.minidev.json.parser.JSONParser;
 
@@ -12,7 +13,8 @@ public class BaseApiTest {
 
 
     public static void apiPreparation() {
-        RestAssured.baseURI = "https://reqres.in";
+        //RestAssured.baseURI = "https://reqres.in";
+        RestAssured.baseURI = "http://restapi.demoqa.com/customer/register";
         RestAssured.requestSpecification = new RequestSpecBuilder()
                 .build()
                 .accept(ContentType.JSON)

@@ -57,12 +57,17 @@ public class ApiTest extends BaseApiTest {
     }
 
     @Test
-    public void readData() {
+    public void readData() { // read data from json file and process
 
-        JSONObject deneme = readDataFromFile("jsonFile.json");
+        JSONObject json = readDataFromFile("jsonFile.json");
+        //you can any control with this json
+        System.out.println(json.get("surname"));
 
-        System.out.println(deneme.get("surname"));
     }
 
+    @Test
+    public void testPostData(){
+        ApiTestingOperations.postData();
+    }
 
 }
